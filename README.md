@@ -1,3 +1,24 @@
+# 🚀 Data Science & Machine Learning Portfolio
+
+Cześć! To repozytorium zawiera moje projekty z zakresu uczenia maszynowego (Machine Learning) i analizy danych. Portfolio udowadnia moje zrozumienie pełnego przekroju podstawowych algorytmów ML: od przewidywania wartości ciągłych, przez klasyfikację, aż po uczenie nienadzorowane.
+
+## 📂 Spis projektów
+
+### [1. Kalkulator Wyceny Nieruchomości (Regresja)](./01_Wycena_Nieruchomosci)
+* **Technologia:** Python, Pandas, Scikit-Learn (`LinearRegression`)
+* **Opis:** Model przewidujący wartość mieszkań na podstawie metrażu, wieku budynku i odległości od centrum. Projekt demonstruje rozumienie korelacji danych i obsługi szumu rynkowego.
+
+### [2. Przewidywanie Odejść Klientów / Churn (Klasyfikacja)](./02_Customer_Churn)
+* **Technologia:** Python, Scikit-Learn (`LogisticRegression`, `RandomForestClassifier`), Seaborn
+* **Opis:** Model klasyfikacji binarnej wyłapujący klientów zagrożonych rezygnacją z subskrypcji. Projekt zawiera analizę Macierzy Pomyłek (Confusion Matrix) oraz ważności cech (Feature Importance), udowadniając, że czasem prostszy model sprawdza się lepiej.
+
+### [3. Segmentacja Klientów E-commerce (Grupowanie)](./03_Segmentacja_Klientow)
+* **Technologia:** Python, Scikit-Learn (`KMeans`), Matplotlib
+* **Opis:** Zastosowanie uczenia nienadzorowanego do automatycznego podziału klientów na 4 grupy docelowe (VIP, Oszczędni, itp.) na podstawie ich dochodów i wydatków. Algorytm samodzielnie zidentyfikował klastry bez podawania mu etykiet docelowych.
+
+---
+*Projekty zostały stworzone w środowiskach wirtualnych (venv) przy użyciu Jupyter Notebook.*
+
 # 🏠 Kalkulator Wyceny Nieruchomości (Machine Learning)
 
 To jest mój pierwszy projekt w ramach Machine Learningu. Zbudowałem model sztucznej inteligencji, który wycenia wartość mieszkań na podstawie ich parametrów (metraż, liczba pokoi, wiek budynku i odległość od centrum).
