@@ -17,3 +17,24 @@ To jest mój pierwszy projekt w ramach Machine Learningu. Zbudowałem model sztu
 1. Sklonuj to repozytorium na swój komputer:
    ```bash
    git clone [https://github.com/FilipKusiak/ML_Wycena_Nieruchomosci.git](https://github.com/FilipKusiak/ML_Wycena_Nieruchomosci.git)
+
+
+
+   ---
+
+## 📉 Projekt 2: Przewidywanie odejść klientów (Customer Churn)
+
+Drugi projekt to **klasyfikacja binarna**. Celem było przewidzenie, czy klient zrezygnuje z subskrypcji na podstawie jego zachowań, wieku i rachunków.
+
+### 🧠 Wykorzystane Algorytmy i Wyniki:
+* **Logistic Regression:** Uzyskał wyższą dokładność (**82%**), idealnie dopasowując się do prostych zależności w danych.
+* **Random Forest:** Pozwolił na analizę ważności cech (76% accuracy).
+
+### 📊 Co najbardziej wpływa na odejście (Feature Importance):
+Dzięki "Lasowi Losowemu" wiemy, co boli klientów:
+1. **Miesięczny rachunek:** Najsilniejszy czynnik (pieniądze!).
+2. **Staż klienta:** Lojalność rośnie z czasem spędzonym w usłudze.
+3. **Liczba telefonów do wsparcia:** Problemy techniczne wypychają ludzi z firmy.
+
+### 💡 Czego się nauczyłem?
+Ten projekt pokazał mi, że **większy model nie zawsze jest lepszy**. Random Forest zaczął "kombinować" (overfitting), podczas gdy zwykła Regresja Logistyczna trafiła w punkt.
